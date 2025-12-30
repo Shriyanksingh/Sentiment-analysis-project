@@ -10,14 +10,12 @@
     - Simple linear regression model for sentiment trends with basic features.
 
     ## Files
-    - `test.csv` - Input data (converted from uploaded `test.xlsx` if provided).
-    - `sentiment_analysis.py` - Main Python script implementing the pipeline.
-    - `main.ipynb` - Notebook demonstrating usage and outputs.
-    - `annotated_messages.csv` - Generated file with sentiment labels (after running).
-    - `monthly_scores.csv` - Monthly aggregated scores per employee.
-    - `features_for_model.csv` - Features used for linear regression.
+    - `test.csv` - Input data (converted from uploaded `test.xlsx` if provided). 
+    - `main.ipynb` - Notebook containing all the python code
+    - `updated_employee_sentiment.csv` - Updated test.csv with scores
+    - `monthly_scores_each_employee.csv` - Monthly aggregated scores per employee.
+    - `Employee_sentiment_report` - Report of all the EDA and analysis done.
     - `README.md` - This file.
-    - `.env.example` - Example environment variables file.
     - `requirements.txt` - Python dependencies.
 
     ## How to run (locally)
@@ -51,3 +49,4 @@ Model metrics printed by the script include MSE and R² (if enough data exists).
     ## Notes
     - The included notebook runs the script and displays sample outputs.
     - For production, consider replacing TextBlob with a fine-tuned classifier or an LLM for improved sentiment accuracy.
+Author- Shriyank Singh
