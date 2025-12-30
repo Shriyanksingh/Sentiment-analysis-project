@@ -1,5 +1,12 @@
 pandas
-textblob
+numpy
+matplotlib
 scikit-learn
-nbformat
+torch
+textblob
+python-docx
 openpyxl
+python-pptx
+reportlab
+pypandoc
+odfpy
