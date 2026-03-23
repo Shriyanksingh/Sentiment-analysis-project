@@ -39,3 +39,8 @@ An employee is flagged as flight risk if they have **4 or more negative messages
 ## Predictive model
 A simple linear regression model is trained at the employee-month level using features:
 - message_count
+- avg_length
+- negative_count
+- positive_count
+- neutral_count
+Model metrics printed by the script include MSE and R² (if enough data exists).
