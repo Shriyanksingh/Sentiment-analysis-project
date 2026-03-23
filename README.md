@@ -44,3 +44,5 @@ A simple linear regression model is trained at the employee-month level using fe
 - positive_count
 - neutral_count
 Model metrics printed by the script include MSE and R² (if enough data exists).
+
+Author- Shriyank Singh
